@@ -1,0 +1,74 @@
+body {
+    background-color: #111111;
+    font-family: "Calibri", "Verdana", "Times New Roman", sans-serif;
+    color: ghostwhite;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div {
+    font-weight: bold;
+    text-align: center;
+}
+
+.inputs {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table {
+    padding: 20px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #111111;
+    color: #111111;
+    border-radius: 25px;
+    border: 1px #111111;
+}
+
+td,tr {
+    border: 1px #111111;
+}
+
+#loadingBar {
+    width: 0%;
+    height: 25px;
+    background-color: ghostwhite;
+}
+
+#progress {
+    width: 100%;
+    background-color: #111111
+}
+
+#bar {
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+#nappi {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    border: 2px solid ghostwhite;
+    border-radius: 25px;
+    transition-duration: .2s;
+    -webkit-transition-duration: .2s;
+    -moz-transition-duration: .2s;
+    background-color: #111111;
+    padding: 4px 30px;
+}
+
+#nappi:hover {
+    color: #111111;
+    background-color: ghostwhite;
+    transition-duration: .2s;
+    -webkit-transition-duration: .2s;
+    -moz-transition-duration: .2s;
+}
+
+#nappi.button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
